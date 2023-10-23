@@ -20,9 +20,6 @@
             flex-direction: column;
         }
 
-        .flex-row {
-            flex-direction: row;
-        }
 
         .center {
             text-align: center;
@@ -95,34 +92,22 @@
                 <hr class="line">
             </div>
         </div>
-        <div>
-            <ul class="flex flex-row center" style="list-style-type: none; gap: 20px">
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100027751118871" target="_blank">
-                        <Icon icon="mdi:facebook" color="gray" width="48" height="48" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/zZNoelZz" target="_blank">
-                        <Icon icon="icon-park-twotone:big-x" color="gray" width="45" height="45" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://osu.ppy.sh/users/11923881" target="_blank">
-                        <Icon icon="simple-icons:osu" color="gray" width="42" height="42" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://steamcommunity.com/profiles/76561199219775134/" target="_blank">
-                        <Icon icon="mdi:steam" color="gray" width="48" height="48" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/watch?v=ucbx9we6EHk" target="_blank">
-                        <Icon icon="mdi:youtube" color="gray" width="48" height="48" />
-                    </a>
-                </li>
-            </ul>
+        <div class="flex center" style="list-style-type: none; gap: 20px">
+            <a href="https://www.facebook.com/profile.php?id=100027751118871" target="_blank">
+                <Icon icon="mdi:facebook" color="gray" width="48" height="48" />
+            </a>
+            <a href="https://twitter.com/zZNoelZz" target="_blank">
+                <Icon icon="icon-park-twotone:big-x" color="gray" width="45" height="45" />
+            </a>
+            <a href="https://osu.ppy.sh/users/11923881" target="_blank">
+                <Icon icon="simple-icons:osu" color="gray" width="42" height="42" />
+            </a>
+            <a href="https://steamcommunity.com/profiles/76561199219775134/" target="_blank">
+                <Icon icon="mdi:steam" color="gray" width="48" height="48" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=ucbx9we6EHk" target="_blank">
+                <Icon icon="mdi:youtube" color="gray" width="48" height="48" />
+            </a>
         </div>
     </div>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
